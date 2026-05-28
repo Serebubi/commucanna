@@ -1,0 +1,225 @@
+{
+  "collected_at": "2026-05-27T21:30:00+03:00",
+  "updated_with_facebook_at": "2026-05-28T12:22:00+03:00",
+  "business": {
+    "primary_name": "Community Cannabis ชุมชนกัญชา",
+    "english_name": "Community Cannabis",
+    "facebook_page_title": "Community Cannabis | Pattaya",
+    "thai_name": "ชุมชนกัญชา",
+    "category": [
+      "Cannabis store",
+      "Dispensary",
+      "Recreational",
+      "Medical",
+      "Medical cannabis dispensary (Facebook category)"
+    ],
+    "google_place_id": "ChIJXdUpH8CVAjERq3LkXFpY8_0",
+    "google_place_url": "https://www.google.com/maps/place/Community+Cannabis+%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%81%E0%B8%B1%E0%B8%8D%E0%B8%8A%E0%B8%B2/data=!4m7!3m6!1s0x310295c01f29d55d:0xfdf3585a5ce472ab!8m2!3d12.9076217!4d100.8914428!16s%2Fg%2F11wfkfh10c!19sChIJXdUpH8CVAjERq3LkXFpY8_0?authuser=0&hl=ru&rclk=1",
+    "google_cid_pair": "0x310295c01f29d55d:0xfdf3585a5ce472ab",
+    "address": {
+      "google_maps": "407/433 ห้องที่ 11 Bang Lamung District, Chon Buri 20150",
+      "weedth": "407/433 ห้องที่ 11 Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
+      "cannawayz": "407, 433 Thepprasit Soi 3, Pattaya City, Bang Lamung District, Chon Buri 20150, Thailand",
+      "facebook": "407/433 moo.12 Thepprasit Soi3 (Thepprasit Night Market), Pattaya, Thailand, 20150",
+      "recommended_display": "407/433 moo.12 Thepprasit Soi 3 (Thepprasit Night Market), Pattaya, Chon Buri 20150, Thailand",
+      "confidence": "High after matching Google/Cannawayz address with the public Facebook About page.",
+      "needs_owner_confirmation": false
+    },
+    "coordinates": {
+      "google_maps": {
+        "lat": 12.9076217,
+        "lng": 100.8914428
+      },
+      "cannawayz_route_destination": {
+        "lat": 12.908423643559487,
+        "lng": 100.89296376223717
+      },
+      "recommended_for_map_pin": {
+        "lat": 12.9076217,
+        "lng": 100.8914428
+      },
+      "note": "Google Maps coordinates are the stronger source because they match the requested place card and Plus Code."
+    },
+    "plus_code": "WV5R+2H Pattaya, Bang Lamung, Chon Buri",
+    "contacts": {
+      "phone_google_maps": "+66 80 995 0256",
+      "phone_facebook": "080 995 0256",
+      "phone_cannawayz": "+66 80 471 5336",
+      "recommended_phone": "+66 80 995 0256",
+      "email_cannawayz": "communitycannabis420@gmail.com",
+      "email_facebook": "communitycannabis420@gmail.com",
+      "facebook_cannawayz": "https://www.facebook.com/communityjomtien",
+      "facebook_public_page": "https://www.facebook.com/communityjomtien",
+      "line_facebook": "379wtyrw",
+      "instagram_facebook": "https://www.instagram.com/community_cannabis420",
+      "x_facebook": "https://x.com/CommunityJomJom",
+      "website_google_maps": null,
+      "needs_owner_confirmation": [
+        "Whether the Cannawayz secondary phone should be ignored or kept",
+        "Whether LINE ID 379wtyrw is the preferred chat channel",
+        "Current weekly opening hours"
+      ]
+    },
+    "ratings": {
+      "google_maps_visible": {
+        "rating": 5.0,
+        "review_count_visible": null
+      },
+      "weedth": {
+        "rating": 5.0,
+        "review_count": 41,
+        "distribution": {
+          "5_star": 41,
+          "4_star": 0,
+          "3_star": 0,
+          "2_star": 0,
+          "1_star": 0
+        }
+      },
+      "cannawayz": {
+        "rating": 0.0,
+        "review_count": 0
+      },
+      "facebook": {
+        "followers_visible": 159,
+        "likes_visible_from_meta": 159,
+        "checkins_visible_from_meta": 108,
+        "rating_visible": "Not yet rated (1 Review)"
+      }
+    },
+    "hours": {
+      "google_maps_visible": {
+        "status_at_collection": "Closed",
+        "visible_day": "Thursday",
+        "visible_date_from_state": "2026-05-28",
+        "hours": "13:00-22:00",
+        "note": "Google Maps limited view only exposed the current/local day row."
+      },
+      "weedth_visible": {
+        "Monday": "12:00 AM - 10:00 PM",
+        "Tuesday": "12:00 AM - 10:00 PM",
+        "Wednesday": "12:00 AM - 10:00 PM",
+        "Thursday": "12:00 AM - 10:00 PM - Closed",
+        "Friday": "12:00 AM - 10:00 PM",
+        "Saturday": "12:00 AM - 10:00 PM",
+        "Sunday": "12:00 AM - 10:00 PM",
+        "note": "Display looks inconsistent: 12:00 AM may be an import/formatting issue, and Thursday is also marked closed."
+      },
+      "cannawayz_visible": {
+        "Monday": "10:00am - 10:00pm",
+        "Tuesday": "10:00am - 10:00pm",
+        "Wednesday": "10:00am - 10:00pm Closed",
+        "Thursday": "10:00am - 10:00pm",
+        "Friday": "10:00am - 10:00pm",
+        "Saturday": "10:00am - 10:00pm",
+        "Sunday": "10:00am - 10:00pm"
+      },
+      "facebook_visible": {
+        "status_at_collection": "Open now",
+        "visible_at": "2026-05-28T12:22:00+03:00",
+        "note": "Facebook About page exposed open/closed status but not a full weekly schedule in the public view."
+      },
+      "recommended_public_copy": "Open hours vary by source; confirm the weekly schedule with the owner before publishing."
+    }
+  },
+  "location_context": {
+    "city": "Pattaya",
+    "district": "Bang Lamung",
+    "province": "Chon Buri",
+    "country": "Thailand",
+    "nearby_landmarks_from_reviews": [
+      "Thepprasit Soi 3",
+      "Thepprasit Night Market Pattaya"
+    ],
+    "positioning_location_line": "Near Thepprasit Night Market on Thepprasit Soi 3 in Pattaya."
+  },
+  "products_and_experience_observed": {
+    "direct_menu_found": false,
+    "menu_note": "No public product menu/prices were available without sensitive-content verification.",
+    "mentioned_in_reviews": [
+      "flower",
+      "edibles",
+      "brownies",
+      "cookies",
+      "gummies / chewing candy",
+      "smoking accessories"
+    ],
+    "visible_in_photos": [
+      "counter and display area",
+      "glassware and smoking accessories",
+      "cones and grinders",
+      "jars and flower category labels",
+      "edibles and packaged products",
+      "seating / lounge atmosphere",
+      "plants, bamboo/rattan decor, green neon cannabis leaf",
+      "hand-painted welcome sign"
+    ],
+    "services_visible_on_facebook": [
+      "Delivery",
+      "Outdoor seating",
+      "In-store pickup"
+    ],
+    "facebook_wall_signals": [
+      "rotating flower/product posts",
+      "strain names and THC/CBD details visible in public captions",
+      "bong-cleaning solution/accessory post",
+      "historical 10:00-22:00 daily opening-hours posts",
+      "temporary closure notices",
+      "GACP/prescription compliance messaging in 2025 wall content",
+      "local Pattaya and Thepprasit Night Market references",
+      "music/culture and seasonal community posts"
+    ]
+  },
+  "review_insights": {
+    "overall_sentiment": "Very positive",
+    "strongest_themes": [
+      "friendly owner and staff",
+      "good prices",
+      "relaxed local/community vibe",
+      "help with choosing products",
+      "convenient location near Thepprasit Night Market",
+      "good quality flower",
+      "edibles available"
+    ],
+    "languages_seen": [
+      "Thai",
+      "English",
+      "Russian",
+      "German",
+      "Italian"
+    ]
+  },
+  "site_positioning": {
+    "short_positioning": "Friendly community cannabis shop near Thepprasit Night Market in Pattaya.",
+    "tone": "warm, local, relaxed, helpful, tourist-friendly",
+    "primary_audiences": [
+      "tourists staying in Pattaya",
+      "visitors to Thepprasit Night Market",
+      "local residents around Thepprasit Soi 3",
+      "experienced adult customers looking for value and chill atmosphere"
+    ],
+    "primary_calls_to_action": [
+      "Get Directions",
+      "Call",
+      "Message on Facebook",
+      "Check Today's Hours"
+    ]
+  },
+  "assets": {
+    "screenshots_folder": "assets/screenshots",
+    "source_images_folder": "assets/source-images",
+    "rights_note": "Use as research/reference only until owner/image rights are confirmed."
+  },
+  "compliance_notes": {
+    "age_gate_recommended": true,
+    "minimum_age_copy": "20+ only, where legally permitted.",
+    "avoid": [
+      "medical claims",
+      "promising effects or outcomes",
+      "targeting minors",
+      "publishing unverified prices or product availability",
+      "using third-party review text or photos without permission"
+    ],
+    "owner_or_lawyer_review_recommended": true
+  }
+}

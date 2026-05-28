@@ -1,0 +1,516 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Community Cannabis Pattaya | Cannabis Shop near Thepprasit Night Market</title>
+    <meta
+      name="description"
+      content="Community Cannabis in Pattaya near Thepprasit Night Market. Friendly local cannabis shop with helpful staff, delivery, outdoor seating, pickup, and easy directions from Thepprasit Soi 3. Adults 21+ only."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Community Cannabis Pattaya" />
+    <meta
+      property="og:description"
+      content="Friendly cannabis shop near Thepprasit Night Market in Pattaya."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/storefront-porch.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,750&family=Manrope:wght@400;520;650;760&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Store",
+        "name": "Community Cannabis ชุมชนกัญชา",
+        "description": "Friendly cannabis shop near Thepprasit Night Market in Pattaya with delivery, outdoor seating, and in-store pickup listed on Facebook.",
+        "image": "assets/images/storefront-porch.jpg",
+        "logo": "assets/images/facebook-profile.jpg",
+        "email": "communitycannabis420@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "407/433 moo.12 Thepprasit Soi 3 (Thepprasit Night Market)",
+          "addressLocality": "Pattaya",
+          "addressRegion": "Chon Buri",
+          "postalCode": "20150",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 12.9076217,
+          "longitude": 100.8914428
+        },
+        "telephone": "+66809950256",
+        "areaServed": "Pattaya, Chon Buri, Thailand",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "41",
+          "bestRating": "5"
+        },
+        "sameAs": [
+          "https://www.google.com/maps/place/Community+Cannabis+%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%81%E0%B8%B1%E0%B8%8D%E0%B8%8A%E0%B8%B2/data=!4m7!3m6!1s0x310295c01f29d55d:0xfdf3585a5ce472ab!8m2!3d12.9076217!4d100.8914428!16s%2Fg%2F11wfkfh10c!19sChIJXdUpH8CVAjERq3LkXFpY8_0?authuser=0&hl=ru&rclk=1",
+          "https://www.facebook.com/communityjomtien",
+          "https://www.instagram.com/community_cannabis420",
+          "https://x.com/CommunityJomJom"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div class="age-gate" id="ageGate" role="dialog" aria-modal="true" aria-labelledby="ageTitle">
+      <div class="age-curtain age-curtain-left" aria-hidden="true"></div>
+      <div class="age-curtain age-curtain-right" aria-hidden="true"></div>
+      <div class="age-panel">
+        <p class="eyebrow">Adults only</p>
+        <h2 id="ageTitle">Are you 21 or older?</h2>
+        <p id="ageMessage">
+          This website contains cannabis-related business information for Thailand. Please enter only
+          where legal and appropriate.
+        </p>
+        <div class="age-actions">
+          <button class="button button-primary" id="ageAccept" type="button">Yes, I am 21+</button>
+          <button class="button button-secondary" id="ageDecline" type="button">No</button>
+          <a class="button button-secondary age-leave" href="https://www.google.com/">Leave</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="jungle-layer jungle-layer-left" data-parallax data-speed="-0.38" aria-hidden="true">
+      <img src="assets/images/leaf-curtain-left.png" alt="" />
+    </div>
+    <div class="jungle-layer jungle-layer-right" data-parallax data-speed="-0.34" aria-hidden="true">
+      <img src="assets/images/leaf-curtain-right.png" alt="" />
+    </div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Community Cannabis home">
+        <span class="brand-logo" aria-hidden="true">
+          <img src="assets/images/facebook-profile.jpg" alt="" />
+        </span>
+        <span>Community Cannabis</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#visit" data-i18n="navVisit">Visit</a>
+        <a href="#assortment" data-i18n="navAssortment">Assortment</a>
+        <a href="#photos" data-i18n="navPhotos">Photos</a>
+        <a href="#updates" data-i18n="navUpdates">Updates</a>
+        <a href="#reviews" data-i18n="navReviews">Reviews</a>
+        <a href="#location" data-i18n="navLocation">Location</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+      <div class="language-menu" data-language-menu>
+        <button
+          class="language-button"
+          id="languageButton"
+          type="button"
+          aria-haspopup="listbox"
+          aria-expanded="false"
+        >
+          <span class="flag-icon flag-en" data-language-current-flag aria-hidden="true"></span>
+          <strong data-language-current-code>EN</strong>
+        </button>
+        <div class="language-options" role="listbox" aria-label="Language">
+          <button type="button" role="option" data-language-option="en" aria-selected="true">
+            <span class="flag-icon flag-en" aria-hidden="true"></span><strong>EN</strong><em>English</em>
+          </button>
+          <button type="button" role="option" data-language-option="ru" aria-selected="false">
+            <span class="flag-icon flag-ru" aria-hidden="true"></span><strong>RU</strong><em>Russian</em>
+          </button>
+          <button type="button" role="option" data-language-option="th" aria-selected="false">
+            <span class="flag-icon flag-th" aria-hidden="true"></span><strong>TH</strong><em>Thai</em>
+          </button>
+          <button type="button" role="option" data-language-option="zh" aria-selected="false">
+            <span class="flag-icon flag-zh" aria-hidden="true"></span><strong>ZH</strong><em>Chinese</em>
+          </button>
+        </div>
+      </div>
+      <a class="header-call" href="tel:+66809950256" data-i18n="callShort">Call</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Community Cannabis Pattaya">
+        <picture>
+          <img
+            src="assets/images/storefront-porch.jpg"
+            alt="Community Cannabis storefront porch near Thepprasit Soi 3 in Pattaya"
+          />
+        </picture>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="heroEyebrow">Pattaya / Chon Buri</p>
+          <h1>Community Cannabis <span>ชุมชนกัญชา</span></h1>
+          <p class="hero-copy" data-i18n="heroCopy">
+            A friendly local cannabis shop near Thepprasit Night Market, known for fair value,
+            helpful guidance, and a relaxed community atmosphere.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="https://www.google.com/maps/place/Community+Cannabis+%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%81%E0%B8%B1%E0%B8%8D%E0%B8%8A%E0%B8%B2/@12.9076217,100.8914428,17z/data=!3m1!4b1!4m6!3m5!1s0x310295c01f29d55d:0xfdf3585a5ce472ab!8m2!3d12.9076217!4d100.8914428!16s%2Fg%2F11wfkfh10c" target="_blank" rel="noreferrer" data-i18n="directions">Get Directions</a>
+            <a class="button button-ghost" href="tel:+66809950256" data-i18n="callFull">Call +66 80 995 0256</a>
+          </div>
+        </div>
+        <div class="hero-facts" aria-label="Shop highlights">
+          <div>
+            <strong>5.0</strong>
+            <span data-i18n="factRating">rating visible on Google and Weed.th</span>
+          </div>
+          <div>
+            <strong>41</strong>
+            <span data-i18n="factReviews">5-star reviews on Weed.th</span>
+          </div>
+          <div>
+            <strong>WV5R+2H</strong>
+            <span data-i18n="factPlusCode">Pattaya Plus Code</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" id="visit">
+        <div class="container intro-grid">
+          <div>
+            <p class="eyebrow" data-i18n="whyEyebrow">Why visit</p>
+            <h2 data-i18n="whyTitle">Local, relaxed, easy to find.</h2>
+          </div>
+          <p data-i18n="whyCopy">
+            Reviews describe Community Cannabis as a welcoming Pattaya stop with friendly staff,
+            good prices, a chill place to sit, and easy access from Thepprasit Night Market.
+            The public Facebook page also lists delivery, outdoor seating, and in-store pickup.
+          </p>
+        </div>
+      </section>
+
+      <section class="feature-strip" aria-label="Shop strengths">
+        <article>
+          <span class="feature-number">01</span>
+          <h3 data-i18n="featureOneTitle">Helpful staff</h3>
+          <p data-i18n="featureOneCopy">Customers mention clear recommendations, good conversations, and a friendly owner.</p>
+        </article>
+        <article>
+          <span class="feature-number">02</span>
+          <h3 data-i18n="featureTwoTitle">Fair value</h3>
+          <p data-i18n="featureTwoCopy">Good prices and value for money are repeated themes across customer reviews.</p>
+        </article>
+        <article>
+          <span class="feature-number">03</span>
+          <h3 data-i18n="featureThreeTitle">Market-side location</h3>
+          <p data-i18n="featureThreeCopy">A practical stop near Thepprasit Soi 3 and Thepprasit Night Market in Pattaya.</p>
+        </article>
+      </section>
+
+      <section class="experience-section">
+        <div class="container split-layout">
+          <div class="image-stack" aria-label="Shop interior images">
+            <img
+              class="image-main"
+              src="assets/images/interior-display.jpg"
+              alt="Interior display with accessories and greenery at Community Cannabis"
+            />
+            <img
+              class="image-float"
+              src="assets/images/counter-flower.jpg"
+              alt="Counter with cannabis flower category labels and accessories"
+            />
+          </div>
+          <div class="copy-block">
+            <p class="eyebrow" data-i18n="expectEyebrow">What to expect</p>
+            <h2 data-i18n="expectTitle">Flower, edibles, accessories, pickup, and guidance without the hard sell.</h2>
+            <p data-i18n="expectCopy">
+              Public listings and reviews mention flower, edibles such as brownies, cookies and
+              gummies, plus smoking accessories and glassware. Facebook lists delivery, outdoor
+              seating, and in-store pickup; availability should be confirmed directly with the shop.
+            </p>
+            <ul class="check-list">
+              <li data-i18n="expectItemOne">Flower and staff recommendations</li>
+              <li data-i18n="expectItemTwo">Edibles mentioned by customers</li>
+              <li data-i18n="expectItemThree">Accessories visible in-store</li>
+              <li data-i18n="expectItemFour">Outdoor seating and local atmosphere</li>
+              <li data-i18n="expectItemFive">Delivery and in-store pickup listed on Facebook</li>
+              <li data-i18n="expectItemSix">Facebook wall posts show rotating flower and accessory updates</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="assortment-section" id="assortment">
+        <div class="container assortment-header">
+          <div>
+            <p class="eyebrow" data-i18n="assortmentEyebrow">Assortment</p>
+            <h2 data-i18n="assortmentTitle">Rotating flower, edibles, accessories, and care products.</h2>
+          </div>
+          <p data-i18n="assortmentCopy">
+            Public Facebook posts and customer reviews show a menu that changes over time. This
+            section treats Facebook product posts as historical examples, not a live menu; call or
+            message the shop for today's exact availability.
+          </p>
+        </div>
+        <div class="container assortment-layout">
+          <article class="product-tile product-tile-large">
+            <img
+              src="assets/images/facebook-wall-oreo-king.jpg"
+              alt="Oreo King flower photo from a public Community Cannabis Facebook post"
+            />
+            <div>
+              <span data-i18n="productFlowerExample">Flower example</span>
+              <h3 data-i18n="indicaTitle">Indica-style drops</h3>
+              <p data-i18n="indicaCopy">Oreo King appeared in a public Facebook wall post as one of the rotating flower updates.</p>
+            </div>
+          </article>
+          <article class="product-tile">
+            <img
+              src="assets/images/facebook-wall-jack-herer.jpg"
+              alt="Jack Herer flower photo from a public Community Cannabis Facebook post"
+            />
+            <div>
+              <span data-i18n="productFlowerExample">Flower example</span>
+              <h3 data-i18n="sativaTitle">Sativa-style drops</h3>
+              <p data-i18n="sativaCopy">Jack Herer appeared in another wall post, showing that the shop posts strain updates online.</p>
+            </div>
+          </article>
+          <article class="product-tile">
+            <img
+              src="assets/images/facebook-wall-bong-cleaner.jpg"
+              alt="Bong-cleaning solution photo from a public Community Cannabis Facebook post"
+            />
+            <div>
+              <span data-i18n="accessoriesLabel">Accessories</span>
+              <h3 data-i18n="careTitle">Care products</h3>
+              <p data-i18n="careCopy">Facebook also shows accessory support products, including cleaning supplies for glassware.</p>
+            </div>
+          </article>
+          <div class="menu-board" aria-label="Historical Facebook assortment examples">
+            <span data-i18n="seenOlder">Seen in older public posts</span>
+            <ul class="menu-tags">
+              <li>Oreo King</li>
+              <li>Jack Herer</li>
+              <li>Blackberry</li>
+              <li>Blue Dream</li>
+              <li>Tropicana Banana</li>
+              <li>Truffel Monkey</li>
+              <li>Max Punch</li>
+              <li>Sugar Candy</li>
+              <li>Banana Daddy r1</li>
+              <li>Mandarin Cookies V2</li>
+              <li>Sugar Cane</li>
+            </ul>
+            <p data-i18n="menuBoardCopy">
+              Older captions also included THC/CBD details and prices. Those details are kept in
+              the research pack and should be confirmed by the owner before publishing as menu data.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="photo-section" id="photos" aria-label="Categorized photo menu">
+        <div class="container photo-heading">
+          <div>
+            <p class="eyebrow" data-i18n="photoEyebrow">Photo menu</p>
+            <h2 data-i18n="photoTitle">Browse the shop, assortment, and Facebook updates separately.</h2>
+          </div>
+          <div class="photo-filters" aria-label="Photo categories">
+            <button type="button" data-gallery-filter="all" aria-pressed="true" data-i18n="filterAll">All</button>
+            <button type="button" data-gallery-filter="shop" aria-pressed="false" data-i18n="filterShop">Shop</button>
+            <button type="button" data-gallery-filter="assortment" aria-pressed="false" data-i18n="filterAssortment">Assortment</button>
+            <button type="button" data-gallery-filter="updates" aria-pressed="false" data-i18n="filterUpdates">Updates</button>
+          </div>
+        </div>
+        <div class="photo-grid">
+          <figure class="photo-card photo-card-wide" data-gallery-item data-gallery="shop">
+            <img src="assets/images/storefront-porch.jpg" alt="Community Cannabis storefront and porch area" />
+            <figcaption><span data-i18n="filterShop">Shop</span> <em data-i18n="captionStorefront">Storefront near Thepprasit Soi 3</em></figcaption>
+          </figure>
+          <figure class="photo-card" data-gallery-item data-gallery="shop">
+            <img src="assets/images/interior-display.jpg" alt="Community Cannabis interior display area" />
+            <figcaption><span data-i18n="filterShop">Shop</span> <em data-i18n="captionInterior">Interior display</em></figcaption>
+          </figure>
+          <figure class="photo-card" data-gallery-item data-gallery="shop">
+            <img src="assets/images/facebook-wall-night-market-video-thumb.jpg" alt="Thepprasit Night Market video thumbnail from Facebook" />
+            <figcaption><span data-i18n="localLabel">Local</span> <em data-i18n="captionMarket">Thepprasit Night Market context</em></figcaption>
+          </figure>
+          <figure class="photo-card photo-card-tall" data-gallery-item data-gallery="assortment">
+            <img src="assets/images/counter-products.jpg" alt="Community Cannabis product counter and accessories" />
+            <figcaption><span data-i18n="filterAssortment">Assortment</span> <em data-i18n="captionCounter">Counter and accessories</em></figcaption>
+          </figure>
+          <figure class="photo-card" data-gallery-item data-gallery="assortment">
+            <img src="assets/images/facebook-wall-oreo-king.jpg" alt="Oreo King product photo from Facebook" />
+            <figcaption><span data-i18n="filterAssortment">Assortment</span> <em data-i18n="captionFlower">Flower post example</em></figcaption>
+          </figure>
+          <figure class="photo-card" data-gallery-item data-gallery="assortment">
+            <img src="assets/images/facebook-wall-jack-herer.jpg" alt="Jack Herer product photo from Facebook" />
+            <figcaption><span data-i18n="filterAssortment">Assortment</span> <em data-i18n="captionFlower">Flower post example</em></figcaption>
+          </figure>
+          <figure class="photo-card" data-gallery-item data-gallery="assortment">
+            <img src="assets/images/facebook-wall-bong-cleaner.jpg" alt="Bong cleaner product photo from Facebook" />
+            <figcaption><span data-i18n="filterAssortment">Assortment</span> <em data-i18n="captionCare">Care product post</em></figcaption>
+          </figure>
+          <figure class="photo-card" data-gallery-item data-gallery="updates">
+            <img src="assets/images/facebook-wall-closed-notice.jpg" alt="Temporary closure notice from Community Cannabis Facebook" />
+            <figcaption><span data-i18n="filterUpdates">Updates</span> <em data-i18n="captionUpdates">Closure and hours notices</em></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="wall-section" id="updates">
+        <div class="container wall-layout">
+          <div class="wall-copy">
+            <p class="eyebrow" data-i18n="wallEyebrow">Facebook wall</p>
+            <h2 data-i18n="wallTitle">Menu notes, closures, and local updates live on Facebook.</h2>
+            <p data-i18n="wallCopy">
+              The public wall is useful for four categories: rotating product posts, accessory
+              updates, temporary opening-hour notices, and local Pattaya/community posts. Exact
+              menu details should be checked directly before visiting.
+            </p>
+            <a class="text-link" href="https://www.facebook.com/communityjomtien" target="_blank" rel="noreferrer" data-i18n="openFacebookWall">Open Facebook wall</a>
+          </div>
+          <div class="wall-notes" aria-label="Facebook wall highlights">
+            <article>
+              <span>01</span>
+              <h3 data-i18n="wallNoteOneTitle">Product drops</h3>
+              <p data-i18n="wallNoteOneCopy">Public captions show flower posts across indica, sativa, and hybrid-style categories.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3 data-i18n="wallNoteTwoTitle">Accessories and care</h3>
+              <p data-i18n="wallNoteTwoCopy">Accessory support products appear on the wall, so the site separates them from flower.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3 data-i18n="wallNoteThreeTitle">Hours and closures</h3>
+              <p data-i18n="wallNoteThreeCopy">Older posts mention daily 10:00-22:00, temporary closures, and special opening times.</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3 data-i18n="wallNoteFourTitle">Community and compliance</h3>
+              <p data-i18n="wallNoteFourCopy">Posts include Thepprasit Night Market references, Thai New Year/420 content, music, and GACP/prescription notes.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews-section" id="reviews">
+        <div class="container reviews-grid">
+          <div>
+            <p class="eyebrow" data-i18n="reviewsEyebrow">Reputation</p>
+            <h2 data-i18n="reviewsTitle">Loved by locals and travelers.</h2>
+          </div>
+          <div class="review-summary">
+            <div class="rating-lockup">
+              <span>5.0</span>
+              <small data-i18n="reviewsSmall">41 reviews on Weed.th, all visible ratings are 5-star.</small>
+            </div>
+            <p data-i18n="reviewsCopy">
+              Reviews appear in Thai, English, Russian, German, and Italian. The repeated message:
+              friendly staff, good value, chill atmosphere, good product guidance, and a convenient
+              stop near Thepprasit Night Market.
+            </p>
+            <div class="social-proof" aria-label="Facebook public page facts">
+              <span><strong>159</strong> <em data-i18n="followersLabel">Facebook followers</em></span>
+              <span><strong>108</strong> <em data-i18n="visitsLabel">Facebook visits/check-ins</em></span>
+            </div>
+            <a class="text-link" href="https://weed.th/shop/3680d36e-8969-4fd5-8b10-c3fd267ff2b9/pattaya-chon-buri/community-cannabis-%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%81%E0%B8%B1%E0%B8%8D%E0%B8%8A%E0%B8%B2" target="_blank" rel="noreferrer" data-i18n="viewSource">View source listing</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="location-section" id="location">
+        <div class="container location-grid">
+          <div class="location-copy">
+            <p class="eyebrow" data-i18n="locationEyebrow">Location</p>
+            <h2 data-i18n="locationTitle">Find us near Thepprasit Night Market.</h2>
+            <address>
+              407/433 moo.12, Thepprasit Soi 3<br />
+              Thepprasit Night Market, Pattaya<br />
+              Chon Buri 20150, Thailand
+            </address>
+            <p class="muted" data-i18n="locationCopy">
+              Google Maps coordinates: 12.9076217, 100.8914428. Facebook lists the service area
+              as Pattaya, Chon Buri. Call or message before visiting to confirm today's hours.
+            </p>
+            <div class="location-actions">
+              <a class="button button-primary" href="https://www.google.com/maps/place/Community+Cannabis+%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%81%E0%B8%B1%E0%B8%8D%E0%B8%8A%E0%B8%B2/@12.9076217,100.8914428,17z/data=!3m1!4b1!4m6!3m5!1s0x310295c01f29d55d:0xfdf3585a5ce472ab!8m2!3d12.9076217!4d100.8914428!16s%2Fg%2F11wfkfh10c" target="_blank" rel="noreferrer" data-i18n="openGoogleMaps">Open Google Maps</a>
+              <a class="button button-secondary" href="https://www.facebook.com/communityjomtien" target="_blank" rel="noreferrer">Facebook</a>
+            </div>
+          </div>
+          <div class="map-panel">
+            <div class="map-frame" aria-label="Community Cannabis marked near Thepprasit Night Market">
+              <img src="assets/images/map-reference.png" alt="Map reference for Community Cannabis in Pattaya" />
+              <span class="store-pin">
+        <strong>Community Cannabis ชุมชนกัญชา</strong>
+              </span>
+            </div>
+            <div>
+              <span>Plus Code</span>
+              <strong>WV5R+2H Pattaya</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-intro">
+            <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+            <h2 data-i18n="contactTitle">Call or message before visiting to confirm today's hours.</h2>
+            <div class="profile-card">
+              <img src="assets/images/facebook-profile.jpg" alt="Community Cannabis profile logo from Facebook" />
+              <p data-i18n="profileCopy">Public Facebook page: 159 followers, 108 visits/check-ins, LINE, Instagram, and X listed.</p>
+            </div>
+            <a class="button button-primary contact-primary" href="tel:+66809950256" data-i18n="callFull">Call +66 80 995 0256</a>
+          </div>
+          <div class="contact-board" aria-label="Contact methods">
+            <a class="contact-row" href="tel:+66809950256">
+              <span class="contact-icon" aria-hidden="true">Call</span>
+              <small>Phone confirmed by Facebook and Google Maps</small>
+              <strong>+66 80 995 0256</strong>
+            </a>
+            <a class="contact-row" href="mailto:communitycannabis420@gmail.com">
+              <span class="contact-icon" aria-hidden="true">Mail</span>
+              <small>Email listed on Facebook</small>
+              <strong>communitycannabis420@gmail.com</strong>
+            </a>
+            <div class="contact-row">
+              <span class="contact-icon" aria-hidden="true">LINE</span>
+              <small>LINE ID listed on Facebook</small>
+              <strong>379wtyrw</strong>
+            </div>
+            <a class="contact-row" href="https://www.facebook.com/communityjomtien" target="_blank" rel="noreferrer">
+              <span class="contact-icon" aria-hidden="true">FB</span>
+              <small>Facebook page</small>
+              <strong>communityjomtien</strong>
+            </a>
+            <a class="contact-row" href="https://www.instagram.com/community_cannabis420" target="_blank" rel="noreferrer">
+              <span class="contact-icon" aria-hidden="true">IG</span>
+              <small>Instagram</small>
+              <strong>@community_cannabis420</strong>
+            </a>
+            <a class="contact-row" href="https://x.com/CommunityJomJom" target="_blank" rel="noreferrer">
+              <span class="contact-icon" aria-hidden="true">X</span>
+              <small>X</small>
+              <strong>@CommunityJomJom</strong>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Community Cannabis ชุมชนกัญชา</strong>
+        <span data-i18n="footerCopy">Adults 21+ only. Follow local laws. No medical claims are made on this website.</span>
+      </div>
+      <a href="#top" data-i18n="backTop">Back to top</a>
+    </footer>
+
+    <div class="lightbox" id="imageLightbox" aria-hidden="true" role="dialog" aria-label="Image preview">
+      <button class="lightbox-close" type="button" aria-label="Close image preview">Close</button>
+      <img alt="" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

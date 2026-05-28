@@ -1,0 +1,8 @@
+.playwright-cli/
+.playwright-mcp/
+.serena/
+output/
+website/.server.pid
+*.log
+Thumbs.db
+.DS_Store
