@@ -1658,6 +1658,10 @@ body.age-lock {
   color: var(--white);
 }
 
+.age-gate.is-denied .age-panel p:not(.eyebrow) {
+  color: rgba(255, 253, 246, 0.84) !important;
+}
+
 .age-panel {
   position: relative;
   z-index: 1;
