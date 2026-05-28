@@ -793,10 +793,10 @@ if (parallaxLayers.length) {
     parallaxLayers.forEach((layer) => {
       const speed = Number(layer.dataset.speed || 0);
       const side = layer.classList.contains("jungle-layer-left") ? -1 : 1;
-      const horizontal = Math.min(scrollY * 0.28, 180) * side;
+      const horizontal = Math.min(scrollY * 0.36, 220) * side;
       const vertical = scrollY * speed;
       layer.style.transform = `translate3d(${horizontal}px, ${vertical}px, 0)`;
-      layer.style.opacity = String(Math.max(0, 0.58 - scrollY / 900));
+      layer.style.opacity = String(Math.max(0, 0.72 - scrollY / 620));
     });
     ticking = false;
   };

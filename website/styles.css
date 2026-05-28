@@ -1860,7 +1860,7 @@ a.contact-row:focus-visible {
 
 /* Side foliage refinement: denser edge frame, clearer content view */
 .jungle-layer {
-  opacity: 0.72;
+  opacity: 0.76;
   filter: drop-shadow(0 22px 36px rgba(0, 0, 0, 0.28));
 }
 
@@ -1869,51 +1869,51 @@ a.contact-row:focus-visible {
   content: "";
   position: absolute;
   inset: auto;
-  width: 58%;
+  width: 66%;
   aspect-ratio: 0.62;
   background: center / contain no-repeat;
-  opacity: 0.74;
+  opacity: 0.82;
   filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.3));
 }
 
 .jungle-layer-left {
-  left: -255px;
-  top: 84px;
-  width: min(44vw, 520px);
+  left: -220px;
+  top: 38px;
+  width: min(48vw, 570px);
 }
 
 .jungle-layer-left::before {
-  left: 86px;
-  top: 2vh;
+  left: 72px;
+  top: -4vh;
   background-image: url("assets/images/leaf-curtain-left.png");
-  transform: rotate(8deg) scale(0.78);
+  transform: rotate(8deg) scale(0.92);
 }
 
 .jungle-layer-left::after {
-  left: 122px;
-  top: 42vh;
+  left: 118px;
+  top: 34vh;
   background-image: url("assets/images/leaf-curtain-left.png");
-  transform: rotate(-12deg) scale(0.66);
+  transform: rotate(-12deg) scale(0.72);
 }
 
 .jungle-layer-right {
-  right: -272px;
-  top: 104px;
-  width: min(44vw, 520px);
+  right: -232px;
+  top: 46px;
+  width: min(48vw, 570px);
 }
 
 .jungle-layer-right::before {
-  right: 92px;
-  top: 7vh;
+  right: 72px;
+  top: -2vh;
   background-image: url("assets/images/leaf-curtain-right.png");
-  transform: rotate(-7deg) scale(0.78);
+  transform: rotate(-7deg) scale(0.92);
 }
 
 .jungle-layer-right::after {
-  right: 126px;
-  top: 46vh;
+  right: 118px;
+  top: 36vh;
   background-image: url("assets/images/leaf-curtain-right.png");
-  transform: rotate(10deg) scale(0.64);
+  transform: rotate(10deg) scale(0.72);
 }
 
 .hero-shade {
@@ -1930,16 +1930,16 @@ a.contact-row:focus-visible {
 
 @media (max-width: 900px) {
   .jungle-layer {
-    opacity: 0.58;
+    opacity: 0.62;
   }
 
   .jungle-layer-left {
-    left: -418px;
+    left: -390px;
     width: 560px;
   }
 
   .jungle-layer-right {
-    right: -424px;
+    right: -396px;
     width: 560px;
   }
 
@@ -1968,12 +1968,12 @@ a.contact-row:focus-visible {
 
 @media (max-width: 580px) {
   .jungle-layer-left {
-    left: -486px;
+    left: -454px;
     width: 600px;
   }
 
   .jungle-layer-right {
-    right: -496px;
+    right: -464px;
     width: 600px;
   }
 
